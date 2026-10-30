@@ -1,3 +1,9 @@
 {
-    "games": []
+    "games": [
+        {
+            "path": "placeholder.lua",
+            "name": "Placeholder",
+            "description": "A placeholder game that tests basic functionality."
+        }
+    ]
 }
