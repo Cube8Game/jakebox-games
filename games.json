@@ -4,6 +4,11 @@
             "path": "placeholder.lua",
             "name": "Placeholder",
             "description": "A placeholder game that tests basic functionality."
+        },
+        {
+            "path": "adventure.lua",
+            "name": "Adventure",
+            "description": "An unfinished singleplayer text adventure game."
         }
     ]
 }
