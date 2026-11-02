@@ -29,8 +29,8 @@ end
 function on_player_response(answer, player, game_state)
     local answer_key = get_answer_key(game_state)
     local action_block = {}
-    for word in string.gmatch(answer, "%S+") do
-        table.insert(action_block, word)
+    for word in string.gmatch(answer, "[%a%d]+") do
+        table.insert(action_block, string.lower(word))
     end
     local action = parse_action(action_block)
     local response = nil
