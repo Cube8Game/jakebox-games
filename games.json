@@ -9,6 +9,11 @@
             "path": "adventure.lua",
             "name": "Adventure",
             "description": "An unfinished singleplayer text adventure game."
+        },
+        {
+            "path": "nim-21.lua",
+            "name": "21 Nim",
+            "description": "Try not to reach 21! (2 players)"
         }
     ]
 }
